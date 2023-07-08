@@ -1,5 +1,5 @@
 # SIGAI-TASK
-In this tAsk we performed data preprocessing on the given dataset, 'epa_air_quality_annual_summary.csv'. The following steps were taken:
+In this task we performed data preprocessing on the given dataset, 'epa_air_quality_annual_summary.csv'. The following steps were taken:
 
 - **Reading the CSV file:** We used the `pd.read_csv()` function to read the CSV file into a DataFrame named `df`.
 
@@ -21,7 +21,8 @@ In this project, we performed data preprocessing on the dataset using the "sklea
 
 Normalisation is one of the methods used on the dataset. To scale all features to a similar range, usually between 0 and 1, normalisation is a technique. When the characteristics have varied scales and we want to make sure that no one feature dominates the others during analysis, it is especially helpful.
 
-We utilised the "MinMaxScaler" class from the "sklearn.preprocessing" module to achieve normalisation. By deducting the minimum value and dividing by the range (highest value - minimum value) of each characteristic, this class scales each feature independently. The values that are obtained range from 0 to 1.
+We utilised the 'MinMaxScaler' class from the 'sklearn.preprocessing' module to achieve nomalisation. By deducting the minimum value and dividing by the range (highest value - minimum value) of each characteristic, this class scales each feature independently. The values that are obtained range from 0 to 1.
 
 
 In our dataset, normalisation is used to scale down all numerical features to a similar level, allowing for fair comparisons and preventing the disproportionate influence of any particular feature.
+Please refer to the [task.ipynb](https://github.com/ajan421/Ajan_S2/blob/main/task.ipynb) file for a complete implementation of the code and further details on other preprocessing steps.
