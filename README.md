@@ -24,3 +24,4 @@ We utilised the <span style="color:red;">`MinMaxScaler`</span> class from the  <
 
 In our dataset, normalisation is used to scale down all numerical features to a similar level, allowing for fair comparisons and preventing the disproportionate influence of any particular feature.
 Please refer to the [task.ipynb](https://github.com/ajan421/Ajan_S2/blob/main/task.ipynb) file for a complete implementation of the code and further details on other preprocessing steps.
+ 
