@@ -9,9 +9,7 @@ In this task we performed data preprocessing on the given dataset, 'epa_air_qual
 
 - **Removing Null Value Rows:** To handle missing data, we created a new DataFrame named `df2` by removing rows with null values using the `dropna()` function. The resulting DataFrame contains no null value rows.
 
-Please refer to the  notebook(task.ipynb) for a complete implementation of the code and further details on other preprocessing steps.
-
-
+<hr>
 
 ## Data Preprocessing
 
